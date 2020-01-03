@@ -1,5 +1,5 @@
 '''
- Taryn and Austin 
+ Taryn Pratt
  BHPnet
  Final Project
 '''
@@ -9,13 +9,6 @@ import threading
 import getopt
 import subprocess
 
-listen = False 
-command = False  
-upload = False 
-execute = ''
-target = '192.168.0.31'
-upload_destination = ''
-port = 0
 
 def usage(): 
     print ('BHP net Tool')
